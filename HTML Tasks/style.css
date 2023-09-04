@@ -1,0 +1,40 @@
+table {
+  border: 1px solid black;
+  width: 350px;
+  height: 230px;
+  background-color: bisque;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding-top: 5px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 350px;
+  height: 40px;
+}
+
+td:nth-child(odd) {
+  width: 80px;
+}
+
+td:nth-child(even) {
+  text-align: center;
+}
+
+body {
+  background-color: aquamarine;
+}
