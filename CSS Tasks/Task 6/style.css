@@ -27,7 +27,7 @@ label {
   margin-top: 20px;
 }
 
-input:not(.remeber) {
+input:not(.remember) {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -69,4 +69,8 @@ input:not(.remeber) {
 
 .lastBox p {
   margin-right: 20px;
+}
+
+.forgetPass {
+  color: black;
 }
